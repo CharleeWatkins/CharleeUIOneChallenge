@@ -3,6 +3,9 @@
 A pixel-perfect, responsive NFT marketplace landing page built with React, Vite, and CSS. Designed as part of the UI Challenge series.
 Bootstrap icons for the marquee and some of the icon from react-icons
 
+## Live Demo
+[uichallengeone.netlify.app](https://uichallengeone.netlify.app/)
+
 ##  Overview
 This project is a fully responsive marketing landing page for a fictional NFT marketplace called **PLAY NFT**. It showcases modern web design patterns including a scroll-aware sticky navbar, gradient cards, glass-morphism overlays, an infinite scrolling logo marquee, and fully accessible mobile navigation.
 
