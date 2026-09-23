@@ -4,7 +4,7 @@ import './App.css';
 import { FiSearch, FiPlay, FiTwitter, FiInstagram, FiFacebook, FiMenu, FiX } from 'react-icons/fi';
 import { FaDiscord } from 'react-icons/fa';
 
-//ARRAYS //
+//ARRAYS  for all the data needed//
 const heroStats = [
   { value: '27k +', label: 'Art works' },
   { value: '20k +', label: 'Auctions' },
