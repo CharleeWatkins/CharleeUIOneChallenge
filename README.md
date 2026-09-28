@@ -1,16 +1,37 @@
-# React + Vite
+## Links Vault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple bookmark manager built with React, Vite, and Plain CSS.
+Save, organize, search, favorite, edit, and delete your links. Data is saved in your browser using LocalStorage.
 
-Currently, two official plugins are available:
+## Live Demo
+https://linksvaulttask.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Add links with a title, URL, description, and tags
+- View saved links in a card layout
+- Edit and delete links
+- Favorite links
+- Search links
+- Organize links with tags
+- Toast notifications
+- Dashboard statistics
+- Responsive design
+- LocalStorage data persistence
 
-## React Compiler
+## Data Storage
+Links are stored in the browser using LocalStorage, so no backend or database is required.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
+Clone the repository
+git clone https://github.com/CharleeWatkins/CharleeUIOneChallenge.git
 
-## Expanding the ESLint configuration
+## The project  is available under branch:
+feature/links-vault-task
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Install dependencies
+npm install
+
+## Run the project
+npm run dev
+
+
