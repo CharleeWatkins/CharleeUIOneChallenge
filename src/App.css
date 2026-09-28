@@ -168,7 +168,7 @@
   justify-content: center;
 }
 
-/*  Hamburger Menu Button (hidden on desktop) */
+/*  Hamburger Menu Button  */
 .hamburger-btn {
   display: none;
   background: white;
@@ -448,7 +448,7 @@
   pointer-events: none;
 }
 
-/* --- Delete Confirmation Modal Specifics --- */
+/* Delete Confirmation Modal Specifics */
 .delete-modal-content {
   text-align: center;
   max-width: 450px;

@@ -9,21 +9,21 @@ import { Search, Plus, Link as LinkIcon, Heart, Tag, Menu } from 'lucide-react';
 import './App.css';
 
 function App() {
-  // --- Data State (LocalStorage) ---
+  //  Data State (LocalStorage) 
   const [links, setLinks] = useLocalStorage('links-vault-data', []);
   
-  // --- UI State ---
+  // UI State 
   const [currentView, setCurrentView] = useState('dashboard');
   const [searchQuery, setSearchQuery] = useState('');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   
-  // --- Modal States ---
+  //  Modal States
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingLink, setEditingLink] = useState(null);
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
   const [linkToDelete, setLinkToDelete] = useState(null);
 
-  // --- Toast Notification State ---
+  //  Toast Notification State 
   const [toasts, setToasts] = useState([]);
 
   const showToast = useCallback((message, type = 'info') => {
@@ -35,7 +35,7 @@ function App() {
     }, 3000);
   }, []);
 
-  // --- CRUD Operations ---
+  //  CRUD Operations 
   const handleSaveLink = (link) => {
     const exists = links.find(l => l.id === link.id);
     
@@ -83,7 +83,7 @@ function App() {
     setIsModalOpen(true);
   };
 
-  // --- Filtering Logic ---
+  //  Filtering Logic 
   const filteredLinks = useMemo(() => {
     let result = links;
 
